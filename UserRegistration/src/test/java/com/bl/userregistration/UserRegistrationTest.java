@@ -45,4 +45,14 @@ public class UserRegistrationTest {
     {
         Assert.assertFalse(userRegistration.isValidEmail("abc.1#2@bridgelabzgmail.com"));
     }
+    @Test
+    public void givenPassword_WhenProper_ShouldReturnTrue()
+    {
+        Assert.assertTrue(userRegistration.isValidPassword("Pranjali"));
+    }
+    @Test
+    public void givenPassword_WhenImproper_ShouldReturnFalse()
+    {
+        Assert.assertFalse(userRegistration.isValidPassword("pranjali"));
+    }
 }
