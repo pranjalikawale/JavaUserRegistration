@@ -48,7 +48,7 @@ public class UserRegistrationTest {
     @Test
     public void givenPassword_WhenProper_ShouldReturnTrue()
     {
-        Assert.assertTrue(userRegistration.isValidPassword("Pranjali"));
+        Assert.assertTrue(userRegistration.isValidPassword("Pranjali1"));
     }
     @Test
     public void givenPassword_WhenImproper_ShouldReturnFalse()
