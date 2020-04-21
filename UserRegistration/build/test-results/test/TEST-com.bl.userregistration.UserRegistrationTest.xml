@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.userregistration.UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-04-21T05:57:20" hostname="SWAPNIKA" time="0.01">
+<testsuite name="com.bl.userregistration.UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-04-21T21:38:18" hostname="SWAPNIKA" time="0.033">
   <properties/>
-  <testcase name="givenLastName_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.002"/>
+  <testcase name="givenLastName_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.003"/>
   <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenMobileNos_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenMobileNos_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.002"/>
+  <testcase name="givenMobileNos_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.003"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenEmail_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassword_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenEmail_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenEmail_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.004"/>
+  <testcase name="givenPassword_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.002"/>
+  <testcase name="givenEmail_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,10 +1,16 @@
 package com.bl.userregistration;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class UserRegistrationTest {
-    UserRegistration userRegistration=new UserRegistration();
+    UserRegistration userRegistration;
+    @Before
+    public void invokeConstructor()
+    {
+        userRegistration=new UserRegistration();
+    }
     @Test
     public void givenFirstName_WhenProper_ShouldReturnTrue()
     {
@@ -43,16 +49,17 @@ public class UserRegistrationTest {
     @Test
     public void givenEmail_WhenImproper_ShouldReturnFalse()
     {
-        Assert.assertFalse(userRegistration.isValidEmail("abc.1#2@bridgelabzgmail.com"));
+        Assert.assertFalse(userRegistration.isValidEmail("abc.12@bridgelabzgmail.#com"));
     }
     @Test
     public void givenPassword_WhenProper_ShouldReturnTrue()
     {
-        Assert.assertTrue(userRegistration.isValidPassword("Pranjali1#"));
+        Assert.assertTrue(userRegistration.isValidPassword("Pranjali123@"));
     }
     @Test
     public void givenPassword_WhenImproper_ShouldReturnFalse()
     {
-        Assert.assertFalse(userRegistration.isValidPassword("Pranjali1@@"));
+        Assert.assertFalse(userRegistration.isValidPassword("Pran##"));
     }
+
 }
