@@ -35,6 +35,14 @@ public class UserRegistrationTest {
     {
         Assert.assertFalse(userRegistration.isValidMobileNos("91 341567890"));
     }
-
-
+    @Test
+    public void givenEmail_WhenProper_ShouldReturnTrue()
+    {
+        Assert.assertTrue(userRegistration.isValidEmail("abc12@bridgelabzgmail.com"));
+    }
+    @Test
+    public void givenEmail_WhenImproper_ShouldReturnFalse()
+    {
+        Assert.assertFalse(userRegistration.isValidEmail("abc.1#2@bridgelabzgmail.com"));
+    }
 }
