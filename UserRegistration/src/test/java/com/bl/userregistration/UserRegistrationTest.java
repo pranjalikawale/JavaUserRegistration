@@ -25,6 +25,16 @@ public class UserRegistrationTest {
     {
         Assert.assertFalse(userRegistration.isValidName("Ka"));
     }
+    @Test
+    public void givenMobileNos_WhenProper_ShouldReturnTrue()
+    {
+        Assert.assertTrue(userRegistration.isValidMobileNos("91 2341567890"));
+    }
+    @Test
+    public void givenMobileNos_WhenImproper_ShouldReturnFalse()
+    {
+        Assert.assertFalse(userRegistration.isValidMobileNos("91 341567890"));
+    }
 
 
 }

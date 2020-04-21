@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.userregistration.UserRegistrationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-04-21T04:18:10" hostname="SWAPNIKA" time="0.005">
+<testsuite name="com.bl.userregistration.UserRegistrationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-04-21T04:43:42" hostname="SWAPNIKA" time="0.008">
   <properties/>
   <testcase name="givenLastName_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.002"/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenMobileNos_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenMobileNos_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
