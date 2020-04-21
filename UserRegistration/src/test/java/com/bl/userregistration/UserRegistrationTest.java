@@ -15,5 +15,16 @@ public class UserRegistrationTest {
     {
         Assert.assertFalse(userRegistration.isValidName("Pr"));
     }
-    
+    @Test
+    public void givenLastName_WhenProper_ShouldReturnTrue()
+    {
+        Assert.assertTrue(userRegistration.isValidName("Kawale"));
+    }
+    @Test
+    public void givenLastName_WhenImproper_ShouldReturnFalse()
+    {
+        Assert.assertFalse(userRegistration.isValidName("Ka"));
+    }
+
+
 }
