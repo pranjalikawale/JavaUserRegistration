@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bl.userregistration.UserRegistrationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-21T03:51:57" hostname="SWAPNIKA" time="0.003">
+  <properties/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue" classname="com.bl.userregistration.UserRegistrationTest" time="0.003"/>
+  <testcase name="givenFirstName_WhenImproper_ShouldReturnFalse" classname="com.bl.userregistration.UserRegistrationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
