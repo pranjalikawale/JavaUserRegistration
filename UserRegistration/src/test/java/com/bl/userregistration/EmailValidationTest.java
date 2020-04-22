@@ -15,12 +15,14 @@ public class EmailValidationTest {
     private boolean isValid;
     UserRegistration userRegistration;
 
+    //Parameterized constructor for emailSample and isValid
     public EmailValidationTest(String emailSample,boolean isValid)
     {
         this.emailSample=emailSample;
         this.isValid=isValid;
     }
 
+    //Store email sample in arraylist
     @Parameterized.Parameters
     public static Collection input()
     {
@@ -48,11 +50,13 @@ public class EmailValidationTest {
                 {"abc@gmail.com.aa.au",false}
         });
     }
+    //Create instance of user registration class
     @Before
     public void invokeConstructor()
     {
         userRegistration=new UserRegistration();
     }
+    //Test method for all sample email
     @Test
     public void EmailValidationTest()
     {
