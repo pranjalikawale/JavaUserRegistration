@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bl.userregistration.EmailValidationTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-04-22T21:08:05" hostname="SWAPNIKA" time="0.031">
+  <properties/>
+  <testcase name="EmailValidationTest[0]" classname="com.bl.userregistration.EmailValidationTest" time="0.002"/>
+  <testcase name="EmailValidationTest[1]" classname="com.bl.userregistration.EmailValidationTest" time="0.001"/>
+  <testcase name="EmailValidationTest[2]" classname="com.bl.userregistration.EmailValidationTest" time="0.001"/>
+  <testcase name="EmailValidationTest[3]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[4]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[5]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[6]" classname="com.bl.userregistration.EmailValidationTest" time="0.001"/>
+  <testcase name="EmailValidationTest[7]" classname="com.bl.userregistration.EmailValidationTest" time="0.001"/>
+  <testcase name="EmailValidationTest[8]" classname="com.bl.userregistration.EmailValidationTest" time="0.001"/>
+  <testcase name="EmailValidationTest[9]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[10]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[11]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[12]" classname="com.bl.userregistration.EmailValidationTest" time="0.003"/>
+  <testcase name="EmailValidationTest[13]" classname="com.bl.userregistration.EmailValidationTest" time="0.001"/>
+  <testcase name="EmailValidationTest[14]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[15]" classname="com.bl.userregistration.EmailValidationTest" time="0.002"/>
+  <testcase name="EmailValidationTest[16]" classname="com.bl.userregistration.EmailValidationTest" time="0.001"/>
+  <testcase name="EmailValidationTest[17]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[18]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[19]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <testcase name="EmailValidationTest[20]" classname="com.bl.userregistration.EmailValidationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
